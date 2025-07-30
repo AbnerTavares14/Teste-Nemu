@@ -38,7 +38,6 @@ export function useJourneys() {
       });
   }, []);
 
-  // NOVO: Lógica para extrair filtros únicos
   const availableFilters = useMemo(() => {
     if (journeys.length === 0) {
       return { campaigns: [], mediums: [], contents: [] };
