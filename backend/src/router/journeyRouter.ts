@@ -10,4 +10,4 @@ const journeyController = new JourneyController(journeyService);
 
 export const journeyRouter = Router();
 
-journeyRouter.get('/journey', journeyController.getAllJourneys);
+journeyRouter.get('/journeys', journeyController.getAllJourneys);

@@ -33,6 +33,14 @@ export class JourneyService {
             return 'WhatsApp';
         }
 
+        if (med.includes('email') || src.includes('email')) {
+            return 'Email';
+        }
+
+        if (src.includes('live')) {
+          return 'Live';
+        }
+
         if (med === 'social' || src.includes('reels') || src.includes('insta')) {
           return 'Instagram';
         }
@@ -119,7 +127,7 @@ export class JourneyService {
     const seenChannelsInMiddle = new Set<string>();
     const uniqueMiddleTouchPoints: EnrichedTouchPoint[] = [];
 
-    if( middleTouchPoints[0].channel === firstTouchPoint.channel) {
+    if (middleTouchPoints.some(tp => tp.channel === firstTouchPoint.channel)) {
       seenChannelsInMiddle.add(firstTouchPoint.channel);
     }
 
