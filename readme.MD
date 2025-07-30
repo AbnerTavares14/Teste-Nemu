@@ -40,7 +40,9 @@ Filtragem Dinâmica: Permite filtrar jornadas em tempo real por Campanha, Meio e
 ### 🛠️ Tecnologias Utilizadas
 
 Backend: Node.js, TypeScript, Express, xlsx
+
 Frontend: React, Vite, TypeScript, Tailwind CSS, Axios
+
 Ambiente: Docker, Docker Compose
 
 ### 📋 Pré-requisitos
