@@ -49,8 +49,8 @@ Ambiente: Docker, Docker Compose
 
 Para rodar o projeto, você precisa ter instalado:
 
-Docker
-Docker Compose (geralmente incluído no Docker Desktop)
+- Docker
+- Docker Compose (geralmente incluído no Docker Desktop)
 
 ### ⚡ Como Executar o Projeto
 
@@ -78,8 +78,9 @@ O parâmetro `--build` garante que as imagens Docker sejam construídas do zero 
 
 ## Acesse a aplicação:
 
-Frontend: http://localhost:5173
-Backend API: http://localhost:3333
+#### Frontend: http://localhost:5173
+
+#### Backend API: http://localhost:3333
 
 ## Parar os serviços:
 
